@@ -14,7 +14,7 @@ func main() {
 	NewMatrix(5, 5)
 }
 
-type Shape interface {
+type IMatrix interface {
 	division() float64
 	sum() float64
 	multiplier(m1 Matrix, m2 Matrix) Matrix
